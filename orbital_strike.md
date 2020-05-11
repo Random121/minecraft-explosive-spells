@@ -25,6 +25,7 @@
 
 **(C5):** execute @e[type=armor_stand, name=orbitalStrikeTarget] ~ ~ ~ tp @e[type=endermite, name="Call Orbital Strike", r=1, c=1] ~ -100 ~
 
+
 **(R2, Delay: 5):** testfor @e[type=armor_stand, name=orbitalStrikeTarget, scores={orbitalStrikeTimer=0..}]
 
 **(C6):** scoreboard players remove @e[type=armor_stand, name=orbitalStrikeTarget, scores={orbitalStrikeTimer=1..}] orbitalStrikeTimer 1
@@ -36,6 +37,7 @@
 **(C9):** tag @e[type=armor_stand, name=orbitalStrikeTarget, scores={orbitalStrikeTimer=0}] add orbitalStrikeActive
 
 **(C10):** scoreboard players reset @e[type=armor_stand, name=orbitalStrikeTarget, scores={orbitalStrikeTimer=0}] orbitalStrikeTimer
+
 
 **(R3, Delay: 10):** testfor @e[type=armor_stand, name=orbitalStrikeTarget, tag=orbitalStrikeActive]
 
