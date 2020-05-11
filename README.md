@@ -1,6 +1,6 @@
 # minecraft_explosive_spells
 **Includes:**\
-- 2 explosive spells\
+-2 explosive spells\
 \
 **Legends:**\
 R = Repeating command block (If next to chained command block they are connected)\
