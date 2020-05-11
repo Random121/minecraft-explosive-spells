@@ -5,17 +5,11 @@
 (R2)(C6)(C7)(C8)(C9)(C10)
 (R3)(C11)(C12)(C13)(C14)(C15)(C16)(C17)(C18)(C19)(C20)
 
-**_Air Strike:_**\
-(R1)
-(R2)
-
 ## Items:
 
 **Note:** Item used must be a renamed "Spawn Endermite" egg
 
 **_Orbital Strike:_** Call Orbital Strike
-
-**_Air Strike:_** Call Air Strike
 
 ## Commands:
 
@@ -64,7 +58,3 @@
 **(C19):** execute @e[type=armor_stand, name=orbitalStrikeTarget, tag=orbitalStrikeActive] ~ ~ ~ summon ender_crystal ~-5 ~ ~5 minecraft:crystal_explode
 
 **(C20):** execute @e[type=armor_stand, name=orbitalStrikeTarget, tag=orbitalStrikeActive] ~ ~ ~ summon ender_crystal ~ ~ ~ minecraft:crystal_explode
-
-
-
-
