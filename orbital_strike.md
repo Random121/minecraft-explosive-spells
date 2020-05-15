@@ -1,8 +1,8 @@
 ## Layout:
 
 **_Orbital Strike:_**\
-(R1)(C1)(C2)(C3)(C4)(C5)
-(R2)(C6)(C7)(C8)(C9)(C10)
+(R1)(C1)(C2)(C3)(C4)(C5)\
+(R2)(C6)(C7)(C8)(C9)\
 (R3)(C11)(C12)(C13)(C14)(C15)(C16)(C17)(C18)(C19)(C20)
 
 ## Items:
@@ -36,8 +36,6 @@
 **(C8, UC):** testfor @e[type=armor_stand, name=orbitalStrikeTarget, scores={orbitalStrikeTimer=0}]
 
 **(C9):** tag @e[type=armor_stand, name=orbitalStrikeTarget, scores={orbitalStrikeTimer=0}] add orbitalStrikeActive
-
-**(C10):** scoreboard players reset @e[type=armor_stand, name=orbitalStrikeTarget, scores={orbitalStrikeTimer=0}] orbitalStrikeTimer
 \
 \
 \
